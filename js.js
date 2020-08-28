@@ -1,1 +1,1 @@
-document.cookie = "pix=123; domain=confirmdemar.surge.sh";
+document.cookie = "pix=123; domain=confirmdeluck.netlify.app";
