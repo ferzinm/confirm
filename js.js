@@ -1,0 +1,1 @@
+document.cookie = "pix=123; domain=confirmdemar.surge.sh";
