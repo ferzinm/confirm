@@ -2,7 +2,15 @@
 <head>
 </head>
 <script>
-document.cookie = "pix=123; samesite=none; secure;";
+function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+}
+var pixel = getUrlVars()["p"];
+document.cookie = "pix=" + pixel + "; samesite=none; secure;";
   </script>
 <body>
 </body>
